@@ -30,7 +30,7 @@ jobs:
         with:
              node-version: 12
       - name: GitHub Action for Yarn
-        use: Borales/action-yarn@v2
+        run: Borales/action-yarn@v2
         with:
             cmd: install       
       # Runs a set of commands using the runners shell
